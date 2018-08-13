@@ -1,0 +1,37 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "comparte tus fotos estudiando con la comunidad",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "javascript"
+  ],
+  "author": "Visquel De Los Santos <visquel0208@gmail.com> (google.com.do)",
+  "license": "MIT",
+  "dependencies": {
+    "doc-title": "^1.0.2",
+    "empty-element": "^1.0.0",
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "page": "^1.8.6",
+    "pug": "^2.0.3",
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "uber-watchify": "^3.6.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "node server.js & gulp watch"
+  }
+}
